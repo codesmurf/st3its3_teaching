@@ -1,0 +1,6 @@
+C:\sandkasse\ST3ITS3\E18\Lessons\8 Thread synchronization pt. 2\Producer-Consumer Example\ClassAndObjectExample\bin\Debug\ClassAndObjectExample.exe.config
+C:\sandkasse\ST3ITS3\E18\Lessons\8 Thread synchronization pt. 2\Producer-Consumer Example\ClassAndObjectExample\bin\Debug\ClassAndObjectExample.exe
+C:\sandkasse\ST3ITS3\E18\Lessons\8 Thread synchronization pt. 2\Producer-Consumer Example\ClassAndObjectExample\bin\Debug\ClassAndObjectExample.pdb
+C:\sandkasse\ST3ITS3\E18\Lessons\8 Thread synchronization pt. 2\Producer-Consumer Example\ClassAndObjectExample\obj\Debug\ClassAndObjectExample.csproj.CoreCompileInputs.cache
+C:\sandkasse\ST3ITS3\E18\Lessons\8 Thread synchronization pt. 2\Producer-Consumer Example\ClassAndObjectExample\obj\Debug\ClassAndObjectExample.exe
+C:\sandkasse\ST3ITS3\E18\Lessons\8 Thread synchronization pt. 2\Producer-Consumer Example\ClassAndObjectExample\obj\Debug\ClassAndObjectExample.pdb

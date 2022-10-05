@@ -1,0 +1,7 @@
+C:\sandkasse\ST3ITS3\E17\9-1 Thread synchronization pt. 2\CodeForSlides\CodeForSlides\bin\Debug\CodeForSlides.exe.config
+C:\sandkasse\ST3ITS3\E17\9-1 Thread synchronization pt. 2\CodeForSlides\CodeForSlides\bin\Debug\CodeForSlides.exe
+C:\sandkasse\ST3ITS3\E17\9-1 Thread synchronization pt. 2\CodeForSlides\CodeForSlides\bin\Debug\CodeForSlides.pdb
+C:\sandkasse\ST3ITS3\E17\9-1 Thread synchronization pt. 2\CodeForSlides\CodeForSlides\obj\Debug\CodeForSlides.csprojResolveAssemblyReference.cache
+C:\sandkasse\ST3ITS3\E17\9-1 Thread synchronization pt. 2\CodeForSlides\CodeForSlides\obj\Debug\CodeForSlides.csproj.CoreCompileInputs.cache
+C:\sandkasse\ST3ITS3\E17\9-1 Thread synchronization pt. 2\CodeForSlides\CodeForSlides\obj\Debug\CodeForSlides.exe
+C:\sandkasse\ST3ITS3\E17\9-1 Thread synchronization pt. 2\CodeForSlides\CodeForSlides\obj\Debug\CodeForSlides.pdb

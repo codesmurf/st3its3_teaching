@@ -1,0 +1,10 @@
+C:\work\E20\ST3ITS3\8 Thread synchronization pt. 2\HospitalBed\HospitalBed.Application\bin\Debug\HospitalBed.Application.exe.config
+C:\work\E20\ST3ITS3\8 Thread synchronization pt. 2\HospitalBed\HospitalBed.Application\bin\Debug\HospitalBed.Application.exe
+C:\work\E20\ST3ITS3\8 Thread synchronization pt. 2\HospitalBed\HospitalBed.Application\bin\Debug\HospitalBed.Application.pdb
+C:\work\E20\ST3ITS3\8 Thread synchronization pt. 2\HospitalBed\HospitalBed.Application\bin\Debug\HospitalBed.dll
+C:\work\E20\ST3ITS3\8 Thread synchronization pt. 2\HospitalBed\HospitalBed.Application\bin\Debug\HospitalBed.pdb
+C:\work\E20\ST3ITS3\8 Thread synchronization pt. 2\HospitalBed\HospitalBed.Application\obj\Debug\HospitalBed.Application.csprojAssemblyReference.cache
+C:\work\E20\ST3ITS3\8 Thread synchronization pt. 2\HospitalBed\HospitalBed.Application\obj\Debug\HospitalBed.Application.csproj.CoreCompileInputs.cache
+C:\work\E20\ST3ITS3\8 Thread synchronization pt. 2\HospitalBed\HospitalBed.Application\obj\Debug\HospitalBed.Application.csproj.CopyComplete
+C:\work\E20\ST3ITS3\8 Thread synchronization pt. 2\HospitalBed\HospitalBed.Application\obj\Debug\HospitalBed.Application.exe
+C:\work\E20\ST3ITS3\8 Thread synchronization pt. 2\HospitalBed\HospitalBed.Application\obj\Debug\HospitalBed.Application.pdb

@@ -1,0 +1,6 @@
+C:\sandkasse\ST3ITS3\E18\Lessons\8 Thread synchronization pt. 2\Producer-Consumer Example\BlockingCollection\bin\Debug\BlockingCollection.exe.config
+C:\sandkasse\ST3ITS3\E18\Lessons\8 Thread synchronization pt. 2\Producer-Consumer Example\BlockingCollection\bin\Debug\BlockingCollection.exe
+C:\sandkasse\ST3ITS3\E18\Lessons\8 Thread synchronization pt. 2\Producer-Consumer Example\BlockingCollection\bin\Debug\BlockingCollection.pdb
+C:\sandkasse\ST3ITS3\E18\Lessons\8 Thread synchronization pt. 2\Producer-Consumer Example\BlockingCollection\obj\Debug\BlockingCollection.csproj.CoreCompileInputs.cache
+C:\sandkasse\ST3ITS3\E18\Lessons\8 Thread synchronization pt. 2\Producer-Consumer Example\BlockingCollection\obj\Debug\BlockingCollection.exe
+C:\sandkasse\ST3ITS3\E18\Lessons\8 Thread synchronization pt. 2\Producer-Consumer Example\BlockingCollection\obj\Debug\BlockingCollection.pdb
