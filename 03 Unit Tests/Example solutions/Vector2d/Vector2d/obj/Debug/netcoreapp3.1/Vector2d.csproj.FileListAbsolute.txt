@@ -1,0 +1,9 @@
+C:\Users\au181645\source\repos\Vector2d\Vector2d\bin\Debug\netcoreapp3.1\Vector2d.deps.json
+C:\Users\au181645\source\repos\Vector2d\Vector2d\bin\Debug\netcoreapp3.1\Vector2d.dll
+C:\Users\au181645\source\repos\Vector2d\Vector2d\bin\Debug\netcoreapp3.1\Vector2d.pdb
+C:\Users\au181645\source\repos\Vector2d\Vector2d\obj\Debug\netcoreapp3.1\Vector2d.csprojAssemblyReference.cache
+C:\Users\au181645\source\repos\Vector2d\Vector2d\obj\Debug\netcoreapp3.1\Vector2d.AssemblyInfoInputs.cache
+C:\Users\au181645\source\repos\Vector2d\Vector2d\obj\Debug\netcoreapp3.1\Vector2d.AssemblyInfo.cs
+C:\Users\au181645\source\repos\Vector2d\Vector2d\obj\Debug\netcoreapp3.1\Vector2d.csproj.CoreCompileInputs.cache
+C:\Users\au181645\source\repos\Vector2d\Vector2d\obj\Debug\netcoreapp3.1\Vector2d.dll
+C:\Users\au181645\source\repos\Vector2d\Vector2d\obj\Debug\netcoreapp3.1\Vector2d.pdb
