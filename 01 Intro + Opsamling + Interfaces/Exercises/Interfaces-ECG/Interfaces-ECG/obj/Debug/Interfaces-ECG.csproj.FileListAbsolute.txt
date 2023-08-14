@@ -1,0 +1,15 @@
+C:\work\E19\ST3ITS3\Lessons\1-1 Intro + Opsamling + Interfaces\Exercises\Interfaces-ECG\Interfaces-ECG\obj\Debug\Interfaces-ECG.csprojAssemblyReference.cache
+C:\work\E19\ST3ITS3\Lessons\1-1 Intro + Opsamling + Interfaces\Exercises\Interfaces-ECG\Interfaces-ECG\obj\Debug\Interfaces-ECG.csproj.CoreCompileInputs.cache
+C:\work\E19\ST3ITS3\Lessons\1-1 Intro + Opsamling + Interfaces\Exercises\Interfaces-ECG\Interfaces-ECG\bin\Debug\Interfaces-ECG.exe.config
+C:\work\E19\ST3ITS3\Lessons\1-1 Intro + Opsamling + Interfaces\Exercises\Interfaces-ECG\Interfaces-ECG\bin\Debug\Interfaces-ECG.exe
+C:\work\E19\ST3ITS3\Lessons\1-1 Intro + Opsamling + Interfaces\Exercises\Interfaces-ECG\Interfaces-ECG\bin\Debug\Interfaces-ECG.pdb
+C:\work\E19\ST3ITS3\Lessons\1-1 Intro + Opsamling + Interfaces\Exercises\Interfaces-ECG\Interfaces-ECG\obj\Debug\Interfaces-ECG.exe
+C:\work\E19\ST3ITS3\Lessons\1-1 Intro + Opsamling + Interfaces\Exercises\Interfaces-ECG\Interfaces-ECG\obj\Debug\Interfaces-ECG.pdb
+C:\Users\au153021\OneDrive - Aarhus Universitet\work\E22\st3its3_git\st3its3_teaching\01 Intro + Opsamling + Interfaces\Exercises\Interfaces-ECG\Interfaces-ECG\bin\Debug\Interfaces-ECG.exe.config
+C:\Users\au153021\OneDrive - Aarhus Universitet\work\E22\st3its3_git\st3its3_teaching\01 Intro + Opsamling + Interfaces\Exercises\Interfaces-ECG\Interfaces-ECG\bin\Debug\Interfaces-ECG.exe
+C:\Users\au153021\OneDrive - Aarhus Universitet\work\E22\st3its3_git\st3its3_teaching\01 Intro + Opsamling + Interfaces\Exercises\Interfaces-ECG\Interfaces-ECG\bin\Debug\Interfaces-ECG.pdb
+C:\Users\au153021\OneDrive - Aarhus Universitet\work\E22\st3its3_git\st3its3_teaching\01 Intro + Opsamling + Interfaces\Exercises\Interfaces-ECG\Interfaces-ECG\obj\Debug\Interfaces-ECG.csproj.AssemblyReference.cache
+C:\Users\au153021\OneDrive - Aarhus Universitet\work\E22\st3its3_git\st3its3_teaching\01 Intro + Opsamling + Interfaces\Exercises\Interfaces-ECG\Interfaces-ECG\obj\Debug\Interfaces-ECG.csproj.SuggestedBindingRedirects.cache
+C:\Users\au153021\OneDrive - Aarhus Universitet\work\E22\st3its3_git\st3its3_teaching\01 Intro + Opsamling + Interfaces\Exercises\Interfaces-ECG\Interfaces-ECG\obj\Debug\Interfaces-ECG.csproj.CoreCompileInputs.cache
+C:\Users\au153021\OneDrive - Aarhus Universitet\work\E22\st3its3_git\st3its3_teaching\01 Intro + Opsamling + Interfaces\Exercises\Interfaces-ECG\Interfaces-ECG\obj\Debug\Interfaces-ECG.exe
+C:\Users\au153021\OneDrive - Aarhus Universitet\work\E22\st3its3_git\st3its3_teaching\01 Intro + Opsamling + Interfaces\Exercises\Interfaces-ECG\Interfaces-ECG\obj\Debug\Interfaces-ECG.pdb
