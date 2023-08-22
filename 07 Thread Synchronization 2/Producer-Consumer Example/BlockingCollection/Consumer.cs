@@ -15,22 +15,23 @@ namespace BlockingCollection
 
         public void Run()
         {
-            while (!_dataQueue.IsCompleted)
+            // while (!_dataQueue.IsCompleted)
+            while (true)
             {
-                try
-                {
+                // try
+                // {
                     var container = _dataQueue.Take();
                     int pressure = container.GetTyrePressure();
                     System.Console.WriteLine("Tyre pressure: {0}", pressure);
-                }
-                catch (InvalidOperationException)
-                {
-                    // IOE means that Take() was called on a completed collection.
-                    // Some other thread can call CompleteAdding after we pass the
-                    // IsCompleted check but before we call Take. 
-                    // In this example, we can simply catch the exception since the 
-                    // loop will break on the next iteration.
-                }
+                // }
+                // catch (InvalidOperationException)
+                // {
+                //     // IOE means that Take() was called on a completed collection.
+                //     // Some other thread can call CompleteAdding after we pass the
+                //     // IsCompleted check but before we call Take. 
+                //     // In this example, we can simply catch the exception since the 
+                //     // loop will break on the next iteration.
+                // }
                 Thread.Sleep(10);
             }
             System.Console.WriteLine("No more data expected");

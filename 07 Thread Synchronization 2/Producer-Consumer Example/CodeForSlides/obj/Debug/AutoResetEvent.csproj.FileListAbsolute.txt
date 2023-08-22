@@ -1,7 +1,14 @@
-C:\sandkasse\ST3ITS3\E18\Lessons\8 Thread synchronization pt. 2\Producer-Consumer Example\CodeForSlides\bin\Debug\CodeForSlides.exe.config
-C:\sandkasse\ST3ITS3\E18\Lessons\8 Thread synchronization pt. 2\Producer-Consumer Example\CodeForSlides\bin\Debug\CodeForSlides.exe
-C:\sandkasse\ST3ITS3\E18\Lessons\8 Thread synchronization pt. 2\Producer-Consumer Example\CodeForSlides\bin\Debug\CodeForSlides.pdb
-C:\sandkasse\ST3ITS3\E18\Lessons\8 Thread synchronization pt. 2\Producer-Consumer Example\CodeForSlides\obj\Debug\AutoResetEvent.csprojResolveAssemblyReference.cache
-C:\sandkasse\ST3ITS3\E18\Lessons\8 Thread synchronization pt. 2\Producer-Consumer Example\CodeForSlides\obj\Debug\AutoResetEvent.csproj.CoreCompileInputs.cache
-C:\sandkasse\ST3ITS3\E18\Lessons\8 Thread synchronization pt. 2\Producer-Consumer Example\CodeForSlides\obj\Debug\CodeForSlides.exe
-C:\sandkasse\ST3ITS3\E18\Lessons\8 Thread synchronization pt. 2\Producer-Consumer Example\CodeForSlides\obj\Debug\CodeForSlides.pdb
+C:/sandkasse/ST3ITS3/E18/Lessons/8 Thread synchronization pt. 2/Producer-Consumer Example/CodeForSlides/bin/Debug/CodeForSlides.exe.config
+C:/sandkasse/ST3ITS3/E18/Lessons/8 Thread synchronization pt. 2/Producer-Consumer Example/CodeForSlides/bin/Debug/CodeForSlides.exe
+C:/sandkasse/ST3ITS3/E18/Lessons/8 Thread synchronization pt. 2/Producer-Consumer Example/CodeForSlides/bin/Debug/CodeForSlides.pdb
+C:/sandkasse/ST3ITS3/E18/Lessons/8 Thread synchronization pt. 2/Producer-Consumer Example/CodeForSlides/obj/Debug/AutoResetEvent.csprojResolveAssemblyReference.cache
+C:/sandkasse/ST3ITS3/E18/Lessons/8 Thread synchronization pt. 2/Producer-Consumer Example/CodeForSlides/obj/Debug/AutoResetEvent.csproj.CoreCompileInputs.cache
+C:/sandkasse/ST3ITS3/E18/Lessons/8 Thread synchronization pt. 2/Producer-Consumer Example/CodeForSlides/obj/Debug/CodeForSlides.exe
+C:/sandkasse/ST3ITS3/E18/Lessons/8 Thread synchronization pt. 2/Producer-Consumer Example/CodeForSlides/obj/Debug/CodeForSlides.pdb
+/Users/au181645/source/ASE/ITS3/st3its3_teaching/07 Thread Synchronization 2/Producer-Consumer Example/CodeForSlides/bin/Debug/CodeForSlides.exe.config
+/Users/au181645/source/ASE/ITS3/st3its3_teaching/07 Thread Synchronization 2/Producer-Consumer Example/CodeForSlides/bin/Debug/CodeForSlides.exe
+/Users/au181645/source/ASE/ITS3/st3its3_teaching/07 Thread Synchronization 2/Producer-Consumer Example/CodeForSlides/bin/Debug/CodeForSlides.pdb
+/Users/au181645/source/ASE/ITS3/st3its3_teaching/07 Thread Synchronization 2/Producer-Consumer Example/CodeForSlides/obj/Debug/AutoResetEvent.csproj.AssemblyReference.cache
+/Users/au181645/source/ASE/ITS3/st3its3_teaching/07 Thread Synchronization 2/Producer-Consumer Example/CodeForSlides/obj/Debug/AutoResetEvent.csproj.CoreCompileInputs.cache
+/Users/au181645/source/ASE/ITS3/st3its3_teaching/07 Thread Synchronization 2/Producer-Consumer Example/CodeForSlides/obj/Debug/CodeForSlides.exe
+/Users/au181645/source/ASE/ITS3/st3its3_teaching/07 Thread Synchronization 2/Producer-Consumer Example/CodeForSlides/obj/Debug/CodeForSlides.pdb

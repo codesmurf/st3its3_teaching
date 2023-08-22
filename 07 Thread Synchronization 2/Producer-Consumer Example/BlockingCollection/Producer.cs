@@ -16,7 +16,7 @@ namespace BlockingCollection
 
         public void Run()
         {
-            int cnt = 50;
+            int cnt = 5;
             while (cnt > 0)
             {
                 int pressure = _random.Next(0, 50);
@@ -26,7 +26,7 @@ namespace BlockingCollection
                 Thread.Sleep(10);
                 cnt--;
             }
-            _dataQueue.CompleteAdding();
+            //_dataQueue.CompleteAdding();
         }
     }
 }
