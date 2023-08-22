@@ -1,0 +1,26 @@
+﻿<Window x:Class="CardCounterWPF_MVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CardCounterWPF_MVVM"
+        xmlns:viewModel="clr-namespace:CardCounterWPF_MVVM.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="252.857" Width="410">
+    <Window.DataContext>
+        <viewModel:CardCountViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Button x:Name="ButtonStart" Content="Start" HorizontalAlignment="Left" Margin="10,17,0,0" VerticalAlignment="Top" Width="75" Command="{Binding StartButtonClickCommand, Mode=OneTime}" />
+        <Button x:Name="ButtonCancel" Content="Cancel" HorizontalAlignment="Left" Margin="106,17,0,0" VerticalAlignment="Top" Width="75" Command="{Binding CancelButtonClickCommand, Mode=OneTime}"/>
+        <Label Content="Card file" HorizontalAlignment="Left" Margin="10,56,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBoxFile" HorizontalAlignment="Left" Height="24" Margin="122,58,0,0" TextWrapping="Wrap" Text="{Binding Path=File}" VerticalAlignment="Top" Width="231"/>
+        <Label Content="Number of cards" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBoxNumberOfCards" HorizontalAlignment="Left" Height="23" Margin="122,91,0,0" TextWrapping="Wrap" Text="{Binding Path=NumberOfCards}" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Sum of Spades" HorizontalAlignment="Left" Margin="10,119,0,0" VerticalAlignment="Top"/>
+        <Label Content="Number of Aces" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBoxSumOfSpades" HorizontalAlignment="Left" Height="23" Margin="122,119,0,0" TextWrapping="Wrap" Text="{Binding Path=SumOfSpades}" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextBoxNumberOfAces" HorizontalAlignment="Left" Height="23" Margin="122,150,0,0" TextWrapping="Wrap" Text="{Binding Path=NumberOfAces}"  VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
