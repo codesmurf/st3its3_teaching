@@ -22,17 +22,14 @@ namespace HospitalBed
             return Convert.ToBoolean(_random.Next(0, 2));  // 0 = false, 1 = true
         }
 
-        public void Run()
+        public void ReadSample()
         {
-            while (Running)
+            var presenceDetected = GetSample();
+            _bedControl.HandleData(new PresenceSensorDataContainer()
             {
-                var presenceDetected = GetSample();
-                _bedControl.HandleData(new PresenceSensorDataContainer()
-                {
-                    PresenceDetected = presenceDetected
-                });
-                Thread.Sleep(SampleTime);
-            }
+                PresenceDetected = presenceDetected
+            });
+            Thread.Sleep(SampleTime);
         }
     }
 }
