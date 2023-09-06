@@ -10,7 +10,7 @@ var bedControl = new BedControl();
 var presenceSensor = new PresenceSensor(bedControl);
 
 var i = 0;
-while (i < 100)
+while (i < 100) 
 {
     presenceSensor.ReadSample();
 
