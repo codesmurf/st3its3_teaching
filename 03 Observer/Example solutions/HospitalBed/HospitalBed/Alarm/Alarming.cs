@@ -16,6 +16,6 @@ public class Alarming : IObserver
 
     public void Update()
     {
-        Alarm.Alarm(_bedControl.data.PresenceDetected);
+        Alarm.Alarm(_bedControl.PresenceDetected);
     }
 }
