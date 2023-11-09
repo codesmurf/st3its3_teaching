@@ -7,11 +7,14 @@ internal class ECGReadingConsumer
 {
     private readonly BlockingCollection<ECGReading> _ecgReadings;
     private readonly ECGContainer _ecgContainer;
+    private readonly EcgServerHandler _ecgServerHandler;
 
-    public ECGReadingConsumer(BlockingCollection<ECGReading> ecgReadings, ECGContainer ecgContainer)
+    public ECGReadingConsumer(BlockingCollection<ECGReading> ecgReadings, ECGContainer ecgContainer,
+        EcgServerHandler ecgServerHandler)
     {
         _ecgReadings = ecgReadings;
         _ecgContainer = ecgContainer;
+        _ecgServerHandler = ecgServerHandler;
     }
 
     public void Run()
@@ -29,6 +32,7 @@ internal class ECGReadingConsumer
                 if (_ecgContainer.Count() % count == 0)
                 {
                     var dataSnapshot = _ecgContainer.CreateDataSnapshot(count);
+                    var httpStatusCode = _ecgServerHandler.AddSummary(dataSnapshot).Result;
                     
                 }
 

@@ -5,7 +5,7 @@ namespace ECGServer
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             Console.WriteLine("ECG Monitor server started.");
             Console.WriteLine("Press:");
@@ -13,15 +13,23 @@ namespace ECGServer
             Console.WriteLine(" p : process list of samples");
 
             BlockingCollection<ECGReading> ecgReadings = new BlockingCollection<ECGReading>();
-            ECGContainer ecgContainer = new ECGContainer("123456-1234");
+            CPRServerHandler cprServerHandler = new CPRServerHandler("https://localhost:7077/");
+            EcgServerHandler ecgServerHandler = new EcgServerHandler("https://localhost:7091/");
 
-            ECGReadingConsumer consumer = new ECGReadingConsumer(ecgReadings, ecgContainer);
             SocketServer socketServer = new SocketServer(ecgReadings);
 
             Thread serverThread = new Thread(socketServer.Run);
-            Thread consumerThread = new Thread(consumer.Run);
-
             serverThread.Start();
+            Thread.Sleep(10);
+
+            Console.WriteLine("Type in CPR number:");
+            string cpr = Console.ReadLine();
+            var patient = await cprServerHandler.GetPatient(cpr);
+            var statusCode = await ecgServerHandler.AddPerson(patient);
+
+            ECGContainer ecgContainer = new ECGContainer(cpr);
+            ECGReadingConsumer consumer = new ECGReadingConsumer(ecgReadings, ecgContainer, ecgServerHandler);
+            Thread consumerThread = new Thread(consumer.Run);
             consumerThread.Start();
 
             bool stop = false;
