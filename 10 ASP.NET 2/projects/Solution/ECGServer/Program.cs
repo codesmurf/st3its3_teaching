@@ -1,4 +1,5 @@
 ﻿using System.Collections.Concurrent;
+using ECGServer.Data;
 
 namespace ECGServer
 {
@@ -12,7 +13,7 @@ namespace ECGServer
             Console.WriteLine(" p : process list of samples");
 
             BlockingCollection<ECGReading> ecgReadings = new BlockingCollection<ECGReading>();
-            ECGContainer ecgContainer = new ECGContainer();
+            ECGContainer ecgContainer = new ECGContainer("123456-1234");
 
             ECGReadingConsumer consumer = new ECGReadingConsumer(ecgReadings, ecgContainer);
             SocketServer socketServer = new SocketServer(ecgReadings);

@@ -1,4 +1,4 @@
-﻿namespace ECGServer;
+﻿namespace ECGServer.Data;
 
 internal class ECGReading
 {

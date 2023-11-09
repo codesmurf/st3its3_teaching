@@ -3,6 +3,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Text.Json;
+using ECGServer.Data;
 
 namespace ECGServer;
 
@@ -41,7 +42,7 @@ internal class SocketServer
             if (numberOfBytesReceived > 0)
             {
                 string receivedData = Encoding.UTF8.GetString(buffer, 0, numberOfBytesReceived);
-                Console.WriteLine($"Server received:{receivedData}");
+                //Console.WriteLine($"Server received:{receivedData}");
 
                 try
                 {

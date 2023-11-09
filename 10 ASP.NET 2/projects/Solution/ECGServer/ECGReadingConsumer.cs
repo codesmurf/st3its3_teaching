@@ -1,4 +1,5 @@
 ﻿using System.Collections.Concurrent;
+using ECGServer.Data;
 
 namespace ECGServer;
 
@@ -23,6 +24,13 @@ internal class ECGReadingConsumer
                 int value = ecgReading.Reading;
                 Console.WriteLine("Got: {0}", value);
                 _ecgContainer.AddSample(value);
+
+                int count = 10;
+                if (_ecgContainer.Count() % count == 0)
+                {
+                    var dataSnapshot = _ecgContainer.CreateDataSnapshot(count);
+                    
+                }
 
             }
             catch (InvalidOperationException)
