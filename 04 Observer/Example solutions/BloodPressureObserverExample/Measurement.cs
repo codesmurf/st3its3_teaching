@@ -10,9 +10,17 @@ namespace ObserverExample
         public int Dia { get; set; }
         public int Sys { get; set; }
 
+        private void Notify(int dia, int sys)
+        {
+            foreach (IBloodPressureObserver bloodPressureObserver in _observers)
+            {
+                bloodPressureObserver.Update(dia, sys);
+            }
+        }
+
         public void Done()
         {
-            Notify();
+            Notify(Dia, Sys);
         }
     }
 }

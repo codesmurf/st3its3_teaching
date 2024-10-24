@@ -6,6 +6,6 @@ namespace ObserverExample
 {
     internal interface IBloodPressureObserver
     {
-        public void Update();
+        public void Update(int dia, int sys);
     }
 }
