@@ -5,9 +5,9 @@ using System.Text;
 
 namespace ObserverExample
 {
-    internal abstract class BloodPressureSubject
+    internal abstract class BloodPressureSubject : object
     {
-        private List<IBloodPressureObserver> _observers = new List<IBloodPressureObserver>();
+        protected List<IBloodPressureObserver> _observers = new List<IBloodPressureObserver>();
 
         public void Attach(IBloodPressureObserver observer)
         {
@@ -19,12 +19,5 @@ namespace ObserverExample
             _observers.Remove(observer);
         }
 
-        protected void Notify()
-        {
-            foreach (IBloodPressureObserver bloodPressureObserver in _observers)
-            {
-                bloodPressureObserver.Update();
-            }
-        }
     }
 }
