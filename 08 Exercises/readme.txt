@@ -1,0 +1,1 @@
+The old "Hospital bed" exercises are used to practice producer-consumer and OO design

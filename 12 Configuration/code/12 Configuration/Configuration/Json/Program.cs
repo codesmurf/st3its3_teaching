@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace Json
 {
@@ -9,6 +10,15 @@ namespace Json
     {
         static void Main(string[] args)
         {
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true,
+                Converters =
+                {
+                    new JsonStringEnumConverter(JsonNamingPolicy.CamelCase)
+                }
+            };
+
             AlarmSettings alarmSettings = new AlarmSettings
             {
                 Locale = "DK",
@@ -17,14 +27,14 @@ namespace Json
             };
             
             string filename = "settings.json";
-             string jsona = JsonSerializer.Serialize(alarmSettings);
+             string jsona = JsonSerializer.Serialize(alarmSettings, options);
              File.WriteAllText(filename, jsona);
 
             try
             {
                 string text = File.ReadAllText(filename);
                 AlarmSettings alarmSettingsCopy =
-                    JsonSerializer.Deserialize<AlarmSettings>(text);
+                    JsonSerializer.Deserialize<AlarmSettings>(text, options);
             }
             catch (Exception e)
             {
@@ -32,7 +42,7 @@ namespace Json
                 // Preserver customers file
                 File.Move(filename, oldFilename);
                 // Save new configuration
-                string json = JsonSerializer.Serialize(alarmSettings);
+                string json = JsonSerializer.Serialize(alarmSettings, options);
                 File.WriteAllText(filename, json);
                 // Notify customer
                 Console.WriteLine("Configuration file invalid, new file created. Old file can be found at: " + oldFilename);
@@ -55,7 +65,6 @@ namespace Json
             {
                 alarms = alarms
             };
-            var options = new JsonSerializerOptions { WriteIndented = true };
             string path = "list.json"; 
             string jsonList = JsonSerializer.Serialize(alarms, options);
             File.WriteAllText(path, jsonList);
