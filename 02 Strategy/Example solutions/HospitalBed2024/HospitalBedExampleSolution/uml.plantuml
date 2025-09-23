@@ -1,0 +1,58 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+class PresenceSensorDataContainer {
+ + PresenceDetected: bool
+}
+
+
+
+class PresenceSensor {
+ + ReadSample(): void
+ - GetSample(): bool
+}
+
+interface IBedControl {
+ + HandleData(data: PresenceSensorDataContainer): void
+ + AlarmMethod: IAlarmMethod {set}
+ + Filter: IFilter {set}
+}
+class BedControl {
+ + HandleData(data: PresenceSensorDataContainer): void
+ + AlarmMethod: IAlarmMethod {set}
+ + Filter: IFilter {set}
+}
+
+interface IAlarmMethod {
+  + StartAlarm(): void
+  + StopAlarm(): void
+}
+class Buzzer {}
+class Light {}
+
+interface IFilter {
+  + Filter(sample: bool): bool
+}
+class PassThroughFilter {
+}
+class NoiseFilter {
+  - returnValue: bool
+  - trueCount: int
+  - falseCount: int
+}
+
+
+PresenceSensor --> PresenceSensorDataContainer
+PresenceSensor --> IBedControl
+IBedControl <|.. BedControl
+BedControl --> IAlarmMethod
+BedControl --> IFilter
+IAlarmMethod <|.. Buzzer
+IAlarmMethod <|.. Light
+
+IFilter <|.. PassThroughFilter
+IFilter <|.. NoiseFilter
+
+
+@enduml
