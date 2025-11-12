@@ -1,0 +1,8 @@
+Tag autoresetevents ud af producer-consumer delen. Brug autoresetevents til top-half/bottom-half kommunikation mellem tråde med observer i stedet for.
+
+
+Skriv opgaven om, så de laver sengen igen, men med blocking collection fra starten af.
+Udvid opgaven med observer og strategy.
+
+
+
