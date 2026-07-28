@@ -1,0 +1,26 @@
+Hej XXX
+
+Tak for, at du vil være censor til eksamen i ST3ITS3 d. 18/6.
+
+Vi starter med at tage den første studerende ind kl. 9.00. Der er sat 30 min af pr. studerende og der er 8 tilmeldt eksamen. Vi laver en opdateret tidsplan dagen inden, når vi kan se, hvilke studerende, som har afleveret hjemme-delen af opgaven.
+
+Vi skal være i lokale 115 i bygning 5790: https://www.au.dk/om/bygningskort?b=5790
+Jeg har bestilt kaffe, rundstykker og frokost til os.
+
+Kursusbeskrivelsen og læringsmålene er her: https://kursuskatalog.au.dk/da/course/134662/ST3ITS3-04-Programmering-3
+
+Som det ses af læringsmålene, lægger vi stor vægt på at de studerende kan anvende det, de lærer. De må gerne bruge generativ AI som hjælp, men de skal kunne forklare alt det kode, de afleverer.
+Vi har kun en enkelt lektion i unittest, så de studerende forventes ikke at kunne ret meget mere end at sætte en test op og køre den. På 4. semester får de et helt fag om test.
+Kurset indeholder også grundlæggende netværkskommunikation og REST-api'er. De studerende forventes ikke at kunne implementere et REST api, men i stedet blot benytte eksisterende api’er. 
+
+Du kan se lektionsplanen nedenfor.
+
+Opgavesættet er af en størrelse, så vi ikke regner med at nogen vil kunne nå alle opgaver, men så har de mulighed for at gå videre til en ny opgave, hvis de sidder fast. Jeg har vedhæftet den foreløbige version af opgaven til denne mail. Vi kommer muligvis med mindre rettelser til opgaven og hvis du har kommentarer, må du meget gerne skrive, så vi kan tage dem i betragtning også.
+
+Vi forventer ikke, at du læser afleveringerne igennem inden eksamen – det gør vi heller ikke selv. Vi bruger sammen ca. 5 min på at få overblik over hver aflevering, inden den studerende kommer ind. Derefter har vi ca. 18-20 min pr. studerende og 5 min til votering og til at give karakter. 
+
+<indsæt lektionsplan>
+
+Du er velkommen til at skrive, hvis du har spørgsmål inden eksamen eller der er noget af undervisningsmaterialet, du gerne vil have adgang til.
+
+Vh. Michael og Henrik

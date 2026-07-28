@@ -1,0 +1,21 @@
+Hej XXX
+
+Tak for, at I vil være censorer til eksamen i ST3ITS3 d. 15/1 og 16/1.
+
+Vi starter med at tage den første studerende ind kl. 9.00. Der er sat 30 min af pr. studerende og der er 15 i hvert spor, så umiddelbart ser det ud til, at vi først er færdige kl. 17.
+Vi laver en opdateret tidsplan på onsdag, når vi kan se, hvilke studerende, som har afleveret hjemme-delen af opgaven.
+
+Vi skal være i lokalerne 5125-408 og 5125-430 i Edison bygningen: https://www.au.dk/om/organisation/find-au/bygningskort?b=5125
+
+Læringsmål og pensum i kurset er ændret siden I sidst var censor hos os. Vi har skruet lidt ned for test og har kun en enkelt lektion i unittest, så de studerende forventes ikke at kunne ret meget mere end at sætte en test op og køre den. Vi har tilføjet grundlæggende netværkskommunikation og REST-api'er. De studerende forventes ikke at kunne implementere et REST api, men i stedet blot benytte eksisterende api’er. Kursusbeskrivelsen er her: https://kursuskatalog.au.dk/da/course/127555/ST3ITS3-04-Programmering-3
+I kan se lektionsplanen nedenfor.
+
+Opgavesættene er som sædvanlig af en størrelse, så vi ikke regner med at nogen vil kunne nå alle opgaver, men så har de mulighed for at gå videre til en ny opgave, hvis de sidder fast. Jeg har vedhæftet opgaven til denne mail.
+
+Vi forventer ikke, at I læser afleveringerne igennem inden eksamen – det gør vi heller ikke selv. Vi bruger sammen med jer ca. 5 min på at få overblik over hver aflevering, inden den studerende kommer ind. Derefter har vi ca. 18-20 min pr. studerende og 5 min til votering og til at give karakter. 
+
+<indsæt lektionsplan>
+
+Som altid, er I velkomne til at skrive, hvis I har spørgsmål inden eksamen.
+
+Vh. Michael og Henrik
